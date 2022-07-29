@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="logo.jpg" class="logo" alt="YouTubeLogo">
+        <div class="search-box">
+            <input type="text" class = "search-bar" placeholder="search">
+            <button class="search-btn">
+                <img src="search.png" alt="SearchButton">
+            </button>
+        </div>
+        <div class="user-options">
+            <img src="create.png" class="icon" alt="videoCreate">
+            <img src="grid.png" class="icon" alt="grid">
+            <img src="bell.png" class="icon" alt="bell">
+        </div>
+        <div class="user-dp">
+            <img src="profilePicture.png" alt="profilePicture">
+        </div>
+    </nav>
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="home.png" alt="home">home</a>
+        <a href="#" class="links"><img src="explore.png" alt="explore">explore</a>
+        <a href="#" class="links"><img src="subscription.png" alt="subscription">subscription</a>
+        <hr class="separator">
+        <a href="#" class="links"><img src="library.png" alt="library">library</a>
+        <a href="#" class="links"><img src="history.png" alt="history">history</a>
+        <a href="#" class="links"><img src="yourVideo.png" alt="your videos">your videos</a>
+        <a href="#" class="links"><img src="watchLater.png" alt="watch later">watch later</a>
+        <a href="#" class="links"><img src="likedVideos.png" alt="liked video">liked video</a>
+        <a href="#" class="links"><img src="showMore.png" alt="show more">show more</a>
+    </div>
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options">java script</button>
+        <button class="filter-options">html</button>
+        <button class="filter-options">css</button>
+        <button class="filter-options">react</button>
+        <button class="filter-options">nodejs</button>
+        <button class="filter-options">data structure</button>
+        <button class="filter-options">algorithm</button>
+        <button class="filter-options">dynamic programming</button>
+        <button class="filter-options">type script</button>
+        <button class="filter-options">mongoDB</button>
+    </div>
+    <div class="video-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
